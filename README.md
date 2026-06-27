@@ -5,7 +5,7 @@
 **A professional-grade, Electron-based photo editor powered by a Rust/WebAssembly image processing engine.**
 
 ![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)
-![Version](https://img.shields.io/badge/version-1.1.0-6366f1?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-6366f1?style=flat-square)
 ![Electron](https://img.shields.io/badge/Electron-31-47848F?style=flat-square&logo=electron)
 ![Rust](https://img.shields.io/badge/Rust-WASM-orange?style=flat-square&logo=rust)
 ![License](https://img.shields.io/badge/license-Commercial-red?style=flat-square)
