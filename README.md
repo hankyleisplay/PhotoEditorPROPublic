@@ -16,7 +16,7 @@
 
 ## Overview
 
-**Photo Editor PRO** is a feature-rich, desktop photo editing application built with **Electron** and powered by a native **Rust + WebAssembly** core engine for hardware-accelerated pixel processing. It offers Lightroom-style tone controls, HSL mixing, spline curve editing, artistic frames, vector doodle drawing, and automatic GitHub release updates — all wrapped in a secure, obfuscated, closed-source package.
+**Photo Editor PRO** is a feature-rich, closed-source desktop photo editing application built with **Electron** and powered by a native **Rust + WebAssembly** core engine for hardware-accelerated pixel processing. It offers Lightroom-style tone controls, HSL mixing, spline curve editing, artistic frames, vector doodle drawing, and automatic GitHub release updates — all wrapped in a secure, obfuscated package.
 
 ---
 
@@ -107,8 +107,8 @@ This will:
 4. **Restore** clean source files for continued development
 
 Output files are written to `dist/`:
-- `Photo Editor PRO 1.1.0.exe` — Portable (no install required)
-- `Photo Editor PRO Setup 1.1.0.exe` — NSIS installer
+- `Photo Editor PRO 1.0.0.exe` — Portable (no install required)
+- `Photo Editor PRO Setup 1.0.0.exe` — NSIS installer
 
 ---
 
@@ -149,7 +149,7 @@ Photo Editor PRO uses an **offline hardware-locked licensing** scheme:
 
 ## 🔒 Security Notes
 
-This application is **closed-source** and protected against reverse engineering:
+This application is **closed-source and proprietary** — source code is never distributed. It is additionally protected against reverse engineering:
 
 - JavaScript sources are obfuscated using `javascript-obfuscator` with maximum settings
 - The WASM binary is compiled with all debug symbols stripped
@@ -205,13 +205,20 @@ Update checks are handled entirely in the **Electron main process** (`main.js`) 
 | [Noto Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC) | OFL |
 | [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) | BSD-2-Clause |
 
+> Note: Photo Editor PRO itself is **not open-source**. The above libraries are used internally and their licenses are acknowledged here in compliance with their respective terms.
+
 ---
 
 ## 📄 License
 
-**Photo Editor PRO** is proprietary, commercially licensed software. All rights reserved.
+**Photo Editor PRO v1.0.0** is proprietary, **closed-source**, commercially licensed software. All rights reserved.
 
-Unauthorized copying, distribution, reverse engineering, or modification of this software is strictly prohibited. Violators will be subject to civil and criminal prosecution under applicable copyright laws.
+- ❌ Source code is **not available** to the public
+- ❌ Redistribution or resale is **strictly prohibited**
+- ❌ Reverse engineering, decompiling, or cracking is **illegal**
+- ✅ Licensed users may run the software on a **single machine** per license key
+
+Violators will be subject to civil and criminal prosecution under applicable copyright laws.
 
 ---
 
